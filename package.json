@@ -1,0 +1,15 @@
+{
+  "name": "coffee-made-simple",
+  "version": "0.1.0",
+  "description": "Coffee Made Simple, the lightweight backend only content management system\u001e",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://www.github.com/nergmada/coffee_made_simple"
+  },
+  "author": "Adam Green",
+  "license": "ISC"
+}
