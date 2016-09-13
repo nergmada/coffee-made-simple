@@ -11,3 +11,14 @@ abstract this away and provide the kind of tools I would like to have
 when developing apps.
 
 
+Content is a set of Assets
+
+Assets are different types such as
+
+- Text
+- Body Text
+- Image 
+- etc
+
+coffee provides access to mongoDB via CRUD operations
+coffee provides access to a file storage system via a simple CRUD operations
