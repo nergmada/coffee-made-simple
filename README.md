@@ -17,8 +17,33 @@ Assets are different types such as
 
 - Text
 - Body Text
-- Image 
+- Image
+- Container (an array of sub content)
 - etc
 
-coffee provides access to mongoDB via CRUD operations
-coffee provides access to a file storage system via a simple CRUD operations
+Coffee then serves these Contents with a restful API such that if I create say a 
+Blog post content type it may look like this:
+
+Blog Post (Content)
+    Text (Title)
+    Body Text (Body)
+    Image (featured image)
+    Container (comments)
+        Text (Title)
+        Body Text (Body)
+
+This piece of Content can now be served on a restful api
+
+www.coffeemadesimple.com/content/blogpost could return
+
+{
+    Title: 'An example blogpost',
+    Body: 'Some Markdown goes here',
+    Image: 'www.coffeemadesimple.com/cms-fs/imagename',
+    {
+        {
+            Title: 'This post is awesome',
+            Body: '...or is it?'
+        }
+    }
+}
