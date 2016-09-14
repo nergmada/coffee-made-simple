@@ -1,3 +1,4 @@
+/* eslint-disable */
 import program from 'commander';
 
 const name = program.args;
